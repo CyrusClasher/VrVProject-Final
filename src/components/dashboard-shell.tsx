@@ -67,7 +67,7 @@ export function DashboardShell({ children }: { children: React.ReactNode }) {
     <div className="flex min-h-screen bg-background">
       {/* Sidebar for larger screens */}
       <aside className="hidden w-64 border-r bg-card p-6 md:flex md:flex-col">
-        <h2 className="mb-6 text-2xl font-bold text-primary">Admin Dashboard</h2>
+        <Link href="/"><h2 className="mb-6 text-2xl font-bold text-primary">Admin Dashboard</h2></Link>
         <SidebarContent />
       </aside>
 
