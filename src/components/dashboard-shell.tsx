@@ -31,15 +31,15 @@ export function DashboardShell({ children }: { children: React.ReactNode }) {
   const SidebarContent = () => (
     <div className="flex flex-col h-full">
       <nav className="space-y-4 flex-grow">
-        <Link href="#" className="flex items-center space-x-2 text-primary hover:text-primary/80">
+        <Link href="/users" className="flex items-center space-x-2 text-primary hover:text-primary/80">
           <Users className="h-5 w-5" />
           <span>Users</span>
         </Link>
-        <Link href="#" className="flex items-center space-x-2 text-primary hover:text-primary/80">
+        <Link href="/roles" className="flex items-center space-x-2 text-primary hover:text-primary/80">
           <Shield className="h-5 w-5" />
           <span>Roles</span>
         </Link>
-        <Link href="#" className="flex items-center space-x-2 text-primary hover:text-primary/80">
+        <Link href="/permissions" className="flex items-center space-x-2 text-primary hover:text-primary/80">
           <Key className="h-5 w-5" />
           <span>Permissions</span>
         </Link>
