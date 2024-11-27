@@ -3,13 +3,13 @@
 Welcome to the **Admin Dashboard** repository! This project is designed to provide a robust and user-friendly interface for managing users, roles, and dynamic permissions using cutting-edge technologies.
 
 ## Table of Contents 📑
-- [Introduction](#introduction)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgements](#acknowledgements)
+- [Introduction](#Introduction)
+- [Features](#Features)
+- [Installation](#Installation)
+- [Usage](#Usage)
+- [Contributing](#Contributing)
+- [License](#License)
+- [Acknowledgements](#Acknowledgements)
 
 ## Introduction 🌟
 The **Admin Dashboard** is a role-based access control (RBAC) system built with TypeScript and styled with **shadcn**. This project is focused on delivering a secure, scalable, and visually appealing solution for administrators to manage user roles and permissions efficiently.
